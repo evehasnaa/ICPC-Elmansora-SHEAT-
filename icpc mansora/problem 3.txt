@@ -1,0 +1,17 @@
+#include <iostream>
+#include<climits>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+
+   int x;
+   cin>>x;
+   int digit=x%10;
+   if (digit>5)
+    cout <<"GOOD"<<endl;
+   else
+    cout <<"BAD"<<endl;
+    return 0;
+}

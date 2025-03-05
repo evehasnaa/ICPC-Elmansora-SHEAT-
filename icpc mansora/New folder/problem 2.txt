@@ -1,0 +1,14 @@
+#include <iostream>
+#include<climits>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+
+   double r;
+   cin>>r;
+   double area= 3.141592653*r*r;
+   cout <<fixed<<area<<setprecision(3)<<endl;
+    return 0;
+}

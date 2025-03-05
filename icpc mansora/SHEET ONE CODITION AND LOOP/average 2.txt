@@ -1,0 +1,13 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double a,b,c;
+    if ((a>=0 &&a<=10.0)||(b>=0 &&b<=10.0)||(c>=0 &&c<=10.0))
+    cin>>a>>b>>c;
+    double aa=a*2,bb=b*3 ,cc=c*5;
+    double avr=(aa +bb+cc)/10;
+    cout <<fixed<<"MEDIA = "<<setprecision(1)<<avr<<endl;
+    return 0;
+}

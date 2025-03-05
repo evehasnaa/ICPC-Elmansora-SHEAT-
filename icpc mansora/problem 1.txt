@@ -1,0 +1,26 @@
+#include <iostream>
+#include<climits>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    int mx=INT_MIN;
+    if (a>b &&b>c )
+    {
+        mx=a;
+    }
+     else if (b>a &&b>c )
+    {
+        mx=b;
+    }
+    else if (c>b &&c>b )
+    {
+        mx=c;
+    }
+    else if (a==b && a==c)
+        mx=a;
+    cout <<mx<<endl;
+    return 0;
+}
